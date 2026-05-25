@@ -15,4 +15,4 @@ Drop `SKILL.md` into `~/.claude/skills/grill-me-store-decisions/` and invoke wit
 
 ## Credit
 
-This is a fork of the original [`grill-me`](https://github.com/) skill — shout out to its author for the core "interview me until we reach shared understanding" idea. This variant adds the persistence + cost-tradeoff layer.
+Built on top of [`grill-me`](https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md) by [Matt Pocock](https://github.com/mattpocock) — shout out for the core "interview me until we reach shared understanding" idea. This variant adds the persistence + cost-tradeoff layer.
