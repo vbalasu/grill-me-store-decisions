@@ -13,6 +13,20 @@ For each question:
 
 Drop `SKILL.md` into `~/.claude/skills/grill-me-store-decisions/` and invoke with `/grill-me-store-decisions` (or let Claude pick it up from the description).
 
+One-liner:
+
+```bash
+mkdir -p ~/.claude/skills/grill-me-store-decisions && \
+  curl -fsSL https://raw.githubusercontent.com/vbalasu/grill-me-store-decisions/main/SKILL.md \
+  -o ~/.claude/skills/grill-me-store-decisions/SKILL.md
+```
+
+## When to use it
+
+- You're scoping a new project and want every fork pressure-tested before you commit code.
+- You want a written record of *what you rejected and why* — not just what you picked.
+- Cost is a first-class concern (SaaS vs self-host at solo / alpha / growth scales).
+
 ## Credit
 
 Built on top of [`grill-me`](https://github.com/mattpocock/skills/blob/main/skills/productivity/grill-me/SKILL.md) by [Matt Pocock](https://github.com/mattpocock) — shout out for the core "interview me until we reach shared understanding" idea. This variant adds the persistence + cost-tradeoff layer.
